@@ -82,7 +82,8 @@ div.tab h4 {
 }
 
 img.chef {
-    width: 250px;
+    max-width: 300px;
+    min-width: 0px;
 }
 
 div.tab.menu {

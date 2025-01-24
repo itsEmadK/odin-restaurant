@@ -50,3 +50,30 @@ nav button.selected {
     border-bottom: 2px solid white;
     margin-bottom: -2px;
 }
+
+div#content {
+    padding: 3em 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+
+div.tab {
+    color: white;
+    font-family: "montserratthin";
+    display: grid;
+    gap: 1.5em;
+    justify-items: center;
+    background-color: rgb(0 0 0 /0.6);
+    padding: 3em;
+    width: 750px;
+}
+
+div.tab h4 {
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+}
+
+img.chef {
+    width: 250px;
+}

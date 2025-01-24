@@ -106,3 +106,15 @@ div.tab.menu {
 .menu-item-image {
     width: 150px;
 }
+
+.tab.contact {
+    justify-items: start;
+}
+
+.contact-info.location {
+    width: 100%;
+}
+
+.contact-info {
+    font-weight: 1000;
+}

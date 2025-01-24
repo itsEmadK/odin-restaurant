@@ -124,3 +124,12 @@ div.tab.menu {
 .contact-info {
     font-weight: 1000;
 }
+
+footer {
+    background-color: rgb(0 0 0 /0.6);
+    color: white;
+    text-align: center;
+    font-family: "montserratthin";
+    padding: 1em;
+    font-weight: 1000;
+}

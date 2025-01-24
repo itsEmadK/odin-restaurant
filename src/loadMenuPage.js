@@ -1,3 +1,20 @@
+import { menuItems } from "./menuItems.js"
+
+
+function loadMenuPage() {
+    const contentDiv = document.querySelector("div#content");
+    const menuTabDiv = document.createElement("div");
+    menuTabDiv.classList.add("tab", "menu");
+
+    menuItems.forEach((item) => {
+        menuTabDiv.appendChild(
+            createMenuItem(item.img, item.title, item.desc)
+        )
+    });
+
+    contentDiv.appendChild(menuTabDiv);
+}
+
 function createMenuItem(imageSource, title, desc) {
     const menuItemDiv = document.createElement("div");
     menuItemDiv.classList.add("menu-item");
@@ -18,4 +35,8 @@ function createMenuItem(imageSource, title, desc) {
     menuItemDiv.appendChild(menuItemImageEl);
     menuItemDiv.appendChild(menuItemTitle);
     menuItemDiv.appendChild(menuItemDesc);
+    return menuItemDiv;
 }
+
+
+export { loadMenuPage }

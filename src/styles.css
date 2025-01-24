@@ -46,6 +46,11 @@ nav button {
     padding: 1em 1em;
     font-family: "montserratthin";
     font-weight: bold;
+    transition: all 0.3s;
+}
+
+nav button:hover {
+    transform: translateY(-5px);
 }
 
 nav button.selected {

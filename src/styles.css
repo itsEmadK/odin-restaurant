@@ -97,6 +97,12 @@ div.tab.menu {
     background-color: rgb(0 0 0 /0.6);
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding: 4em 2em;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.menu-item:hover {
+    background-color: rgb(128 128 128 /0.4);
 }
 
 .menu-item-title {

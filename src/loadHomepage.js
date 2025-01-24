@@ -6,6 +6,7 @@ function loadHomepage() {
     const homeTabDiv = document.createElement("div");
     homeTabDiv.classList.add("tab", "home");
     const headerEl = document.createElement("h4");
+    headerEl.classList.add("homepage-heading");
     const header1 = headerEl.cloneNode(true);
     header1.innerText = "Best pizza in your country";
     const header2 = headerEl.cloneNode(true);
@@ -16,6 +17,7 @@ function loadHomepage() {
     const chefImgEl = document.createElement("img");
     chefImgEl.src = chefPNG;
     chefImgEl.alt = "An image of the chef";
+    chefImgEl.classList.add("chef");
 
     homeTabDiv.appendChild(header1);
     homeTabDiv.appendChild(header2);

@@ -19,6 +19,7 @@ header {
     opacity: 0.9;
     text-align: center;
     padding: 2em;
+    padding-bottom: 1em;
 }
 
 h1 {
@@ -31,8 +32,8 @@ h1 {
 
 nav {
     display: flex;
-    gap: 2em;
     justify-content: center;
+    align-items: center;
 }
 
 nav button {
@@ -42,4 +43,10 @@ nav button {
     font-size: 1rem;
     letter-spacing: 1px;
     cursor: pointer;
+    padding: 1em 1em;
+}
+
+nav button.selected {
+    border-bottom: 2px solid white;
+    margin-bottom: -2px;
 }
